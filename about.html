@@ -1,3 +1,185 @@
-<html>
-  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de</title>
+    <style>
+        #titulo {
+            font-weight: bold;
+            font-size: 1.5em;
+            /*color: blue;*/
+            /*color: #000000;*/
+            color: rgb(255, 0, 0);
+            text-align: left;
+            vertical-align: middle;
+            text-transform: capitalize;
+            letter-spacing: 5px;
+            text-shadow: 1px 1px #000000;
+            /*background-color: #00ccff;*/
+            /*border-color: #000000;
+            border-style: solid;*/
+            /*border-left: 5px #000000 solid;*/
+            border: 5px #000000 solid;
+            /*padding-left: 10px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            padding-right: 20px;*/
+            padding: 10px 30px 20px 40px;
+
+            /*margin-top: 20px;
+            margin-bottom: 70px;
+            margin-left: 30px;
+            margin-right: 30px;*/
+            margin: 20px 30px 70px 30px;
+
+
+            outline-style: solid;
+            outline-color: #0000ff;
+            outline-width: 10px;
+            outline-offset: 2px;
+
+            /* 16px * 1.5 = 24px */
+            /* 16px * 2em = 32px*/
+            /* 16px * 1em = 16px*/
+        }
+
+        .mitexto {
+            /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+            font-size: 0.9em;
+            text-align: justify;
+            text-decoration: underline;
+            text-indent: 20px;
+            line-height: 1.5;
+        }
+
+
+        table,
+        td,
+        th,
+        tr {
+            border: 1px solid;
+            width: 100%;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th {
+            height: 50px;
+            text-align: center;
+            color: white;
+            vertical-align: middle;
+            background-color: black;
+        }
+
+        td {
+            /*
+            padding-left: 10px;
+            padding-right: 20px;*/
+            padding: 15px;
+        }
+
+        td:hover {
+            background-color: #12e131;
+        }
+
+        tr:nth-child(even) {
+            background-color: aqua;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #95b2df;
+        }
+
+        a:hover {
+            color: #c14949
+        }
+
+        a:visited {
+            color: #12e131
+        }
+
+        a:link {
+            color: #053379
+        }
+
+        span:first-child {
+            background-color: #0000ff;
+        }
+
+        p::first-letter {
+            font-size: 20px;
+        }
+
+        p::first-line {
+            color: #0000ff;
+        }
+
+        .micombinador>p {
+            background-color: #12e131;
+        }
+
+
+        a[target="_blank"] {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="titulo">Acerca de</p>
+    <!-- ol>li*5{Lista $} -->
+    <p class="mitexto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis id blanditiis veniam provident praesentium fuga
+        accusamus aliquid obcaecati facere, impedit mollitia labore aperiam commodi unde, necessitatibus quos ullam
+        exercitationem aspernatur fugiat esse dignissimos. Quasi perspiciatis quidem nam facilis eum quos aut modi magni
+        corrupti praesentium? Itaque tempora, aliquid nam quod porro labore asperiores architecto officia obcaecati
+        dolores aliquam! Fugiat natus laborum, ad, blanditiis, porro eius reprehenderit dicta aut laboriosam nesciunt
+        sequi! Voluptatibus odit dicta minima perferendis odio, in officiis voluptas exercitationem incidunt aliquam?
+        Laboriosam autem repellendus nam, fugit similique ipsa iusto excepturi saepe, tempore mollitia facilis! Aperiam
+        in nobis non?
+    </p>
+    <div style="width: 70%;">
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Tel&eacute;fono</th>
+            </tr>
+            <tr>
+                <td>Joe Doe</td>
+                <td>joe.doe@example.com</td>
+                <td>+5935555555</td>
+            </tr>
+            <tr>
+                <td>Joan Doe</td>
+                <td>joan.doe@example.com</td>
+                <td>+5935555555</td>
+            </tr>
+            <tr>
+                <td>Joan Doe</td>
+                <td>joan.doe@example.com</td>
+                <td>+5935555555</td>
+            </tr>
+            <tr>
+                <td>Joan Doe</td>
+                <td>joan.doe@example.com</td>
+                <td>+5935555555</td>
+            </tr>
+        </table>
+    </div>
+
+    <a href="http://wikipedia.org" target="_self">Mis otros productos</a>
+    <br />
+    <div class="micombinador">
+        <p>Texto dentro de combinador</p>
+        <h1>Cabecera</h1>
+    </div>
+
+
+</body>
+
 </html>
