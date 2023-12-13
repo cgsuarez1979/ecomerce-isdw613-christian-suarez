@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/mystyle.scss","../scss/variables.scss","../scss/mixins.scss"],"names":[],"mappings":"AAAA;ACAA;ACAA;AFKA;EACE,kBCJW;EDKX,WCJO;EDMP,OADU;EELV;EACA,WAF2C;EAG3C;EACA;;;AFOF;EACE,kBCZW;EDaX,WCZO;EDaP,OCXQ;ECFR;EACA,WFa2B;EEZ3B;EACA;;;AFcF;EACE;EACA;EACA;EACA;;;AAGF;EACE;;;AAOI;EACE","file":"mystyle.css"}
